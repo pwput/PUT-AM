@@ -1,0 +1,9 @@
+#image2,#image3,#image4{
+    width: calc(100%/3);
+    aspect-ratio: 3/4;
+    float: left;
+}
+#image5,#image1{
+    width: 100%;
+    aspect-ratio: 4/1;
+}

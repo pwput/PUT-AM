@@ -1,0 +1,7 @@
+#image1,#image2,#image3,#image5{
+    width: 100%;
+    aspect-ratio: 4/1;
+}
+#image4{
+    display: none;
+}
