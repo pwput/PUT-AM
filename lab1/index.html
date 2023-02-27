@@ -12,11 +12,17 @@
 </head>
 <body>
 <div class="images">
-    <img id="image1" src="images/pug1.jpg" alt="pug in bed">
+        <picture  >
+            <source media="(min-width: 640px)" srcset="images/pug12.jpg">
+            <source media="(min-width: 479px)" srcset="images/pug1.jpg">
+            <img src="images/pug13.jpg" id="image1" alt="dynamic pug">
+        </picture>
     <img id="image2" src="images/pug2.jpg" alt="pug in front of laptop">
     <img id="image3" src="images/pug3.jpg" alt="black pug smiling">
     <img id="image4" src="images/pug4.jpg" alt="black pug serious">
-    <img id="image5" src="images/pug5.jpg" alt="pug on the flor">
+    <div id="image5" >
+        <h1 style="font-size:8vw">Hello Pug!</h1>
+    </div>
 </div>
 </body>
 </html>

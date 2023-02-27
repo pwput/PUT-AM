@@ -6,4 +6,5 @@
 #image5,#image1{
     width: 100%;
     aspect-ratio: 4/1;
+    float: left;
 }
